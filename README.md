@@ -47,14 +47,15 @@ genai_assistant/
 └── README.md # 
 
 ##Create a virtual environment
-  python -m venv venv
+ ```bash python -m venv venv
 venv\Scripts\activate  # On Windows
+```
 
 ##Install dependencies:
-pip install -r requirements.txt
+```bash pip install -r requirements.txt```
 
 ##Run the app:
-streamlit run app.py
+```streamlit run app.py```
 
 ## Model used
 | Feature       | Model Name                              | Source       |
