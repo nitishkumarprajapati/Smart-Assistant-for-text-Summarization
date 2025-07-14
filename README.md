@@ -18,7 +18,7 @@ This project is part of an internship task for EZ. It’s an AI-powered assistan
 ---
 
 ## 🧱 Architecture Overview
-
+```
 User → Streamlit UI → Document Loader
 ↓ ↓
 Ask Anything Challenge Me
@@ -26,6 +26,7 @@ Ask Anything Challenge Me
 Q&A Pipeline Logic QA Gen
 ↓ ↓
 Justification Extractor (utils)
+```
 
 - Uses **Hugging Face Transformers** (`DistilBERT` & `DistilBART`) for local NLP tasks
 - Uses `nltk` for sentence tokenization and logic question generation
@@ -34,7 +35,7 @@ Justification Extractor (utils)
 ---
 
 ## 📁 Project Structure
-
+```
 genai_assistant/
 │
 ├── app.py # Streamlit main file
@@ -44,9 +45,10 @@ genai_assistant/
 │ ├── qa_engine.py # Q&A and logic-based challenge mode
 │ └── utils.py # Justification extraction
 ├── requirements.txt
-└── README.md # 
+└── README.md #
+```
 
-##Create a virtual environment
+## Create a virtual environment
  ```bash python -m venv venv
 venv\Scripts\activate  # On Windows
 ```
