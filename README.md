@@ -51,11 +51,15 @@ genai_assistant/
 venv\Scripts\activate  # On Windows
 ```
 
-##Install dependencies:
-```bash pip install -r requirements.txt```
+## Install dependencies:
+```
+pip install -r requirements.txt
+```
 
-##Run the app:
-```streamlit run app.py```
+## Run the app:
+```
+streamlit run app.py
+```
 
 ## Model used
 | Feature       | Model Name                              | Source       |
